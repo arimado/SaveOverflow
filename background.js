@@ -8,14 +8,13 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     });
 });
 
-// This block is new!
 chrome.runtime.onMessage.addListener(
-  function(request, sender, sendResponse) {
-    if( request.message === "save_answer" ) {
-         console.log('saving: ', request.content);
-      chrome.tabs.create({"url": request.content});
+    function(request, sender, sendResponse) {
+        if( request.message === "save_answer" ) {
+             console.log('saving: ', request.content);
+             chrome.tabs.create({"url": request.content});
 
 
+        }
     }
-  }
 );
