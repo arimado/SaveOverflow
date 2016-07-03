@@ -11,8 +11,11 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 // This block is new!
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    if( request.message === "open_new_tab" ) {
-      chrome.tabs.create({"url": request.url});
+    if( request.message === "save_answer" ) {
+         console.log('saving: ', request.content);
+      chrome.tabs.create({"url": request.content});
+
+
     }
   }
 );
