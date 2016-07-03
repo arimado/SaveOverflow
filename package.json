@@ -1,0 +1,23 @@
+{
+  "name": "save-overflow",
+  "version": "0.0.1",
+  "description": "Save the best StackOverflow answer for later",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arimado/SaveOverflow.git"
+  },
+  "keywords": [
+    "Chrome",
+    "Extension"
+  ],
+  "author": "Jeremy Arimado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arimado/SaveOverflow/issues"
+  },
+  "homepage": "https://github.com/arimado/SaveOverflow#readme"
+}
