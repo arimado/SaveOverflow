@@ -9,5 +9,8 @@
             ],
             "js": ["./lib/jquery-3.0.0.min.js", "content.js"]
             }
-    ]
+    ],
+    "browser_action": {
+        "default_icon": "./assets/images/icon.png"
+    }
 }
